@@ -1,0 +1,263 @@
+[error] Couldn't run bloopGenerate. Cause: Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),updateClassifiers)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Select(updateClassifiers), Zero),classifiersModule)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:kind-projector_3.3.1:0.13.2
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localorg.typelevel\kind-projector_3.3.1\0.13.2\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/typelevel/kind-projector_3.3.1/0.13.2/kind-projector_3.3.1-0.13.2.pom
+[error] Error downloading com.olegpy:better-monadic-for_3:0.3.1
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localcom.olegpy\better-monadic-for_3\0.3.1\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/olegpy/better-monadic-for_3/0.3.1/better-monadic-for_3-0.3.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:kind-projector_3.3.1:0.13.2
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localorg.typelevel\kind-projector_3.3.1\0.13.2\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/typelevel/kind-projector_3.3.1/0.13.2/kind-projector_3.3.1-0.13.2.pom
+[error] Error downloading com.olegpy:better-monadic-for_3:0.3.1
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localcom.olegpy\better-monadic-for_3\0.3.1\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/olegpy/better-monadic-for_3/0.3.1/better-monadic-for_3-0.3.1.pom))), directCause=None), Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(compile)), Zero, Zero),externalDependencyClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(compile)), Zero, Zero),managedClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:kind-projector_3.3.1:0.13.2
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localorg.typelevel\kind-projector_3.3.1\0.13.2\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/typelevel/kind-projector_3.3.1/0.13.2/kind-projector_3.3.1-0.13.2.pom
+[error] Error downloading com.olegpy:better-monadic-for_3:0.3.1
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localcom.olegpy\better-monadic-for_3\0.3.1\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/olegpy/better-monadic-for_3/0.3.1/better-monadic-for_3-0.3.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:kind-projector_3.3.1:0.13.2
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localorg.typelevel\kind-projector_3.3.1\0.13.2\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/typelevel/kind-projector_3.3.1/0.13.2/kind-projector_3.3.1-0.13.2.pom
+[error] Error downloading com.olegpy:better-monadic-for_3:0.3.1
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localcom.olegpy\better-monadic-for_3\0.3.1\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/olegpy/better-monadic-for_3/0.3.1/better-monadic-for_3-0.3.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(compile)), Zero, Zero),bloopInternalClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:kind-projector_3.3.1:0.13.2
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localorg.typelevel\kind-projector_3.3.1\0.13.2\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/typelevel/kind-projector_3.3.1/0.13.2/kind-projector_3.3.1-0.13.2.pom
+[error] Error downloading com.olegpy:better-monadic-for_3:0.3.1
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localcom.olegpy\better-monadic-for_3\0.3.1\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/olegpy/better-monadic-for_3/0.3.1/better-monadic-for_3-0.3.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:kind-projector_3.3.1:0.13.2
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localorg.typelevel\kind-projector_3.3.1\0.13.2\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/typelevel/kind-projector_3.3.1/0.13.2/kind-projector_3.3.1-0.13.2.pom
+[error] Error downloading com.olegpy:better-monadic-for_3:0.3.1
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localcom.olegpy\better-monadic-for_3\0.3.1\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/olegpy/better-monadic-for_3/0.3.1/better-monadic-for_3-0.3.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(compile)), Zero, Zero),externalDependencyClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(compile)), Zero, Zero),managedClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:kind-projector_3.3.1:0.13.2
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localorg.typelevel\kind-projector_3.3.1\0.13.2\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/typelevel/kind-projector_3.3.1/0.13.2/kind-projector_3.3.1-0.13.2.pom
+[error] Error downloading com.olegpy:better-monadic-for_3:0.3.1
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localcom.olegpy\better-monadic-for_3\0.3.1\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/olegpy/better-monadic-for_3/0.3.1/better-monadic-for_3-0.3.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:kind-projector_3.3.1:0.13.2
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localorg.typelevel\kind-projector_3.3.1\0.13.2\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/typelevel/kind-projector_3.3.1/0.13.2/kind-projector_3.3.1-0.13.2.pom
+[error] Error downloading com.olegpy:better-monadic-for_3:0.3.1
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localcom.olegpy\better-monadic-for_3\0.3.1\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/olegpy/better-monadic-for_3/0.3.1/better-monadic-for_3-0.3.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(compile)), Zero, Zero),bloopInternalClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:kind-projector_3.3.1:0.13.2
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localorg.typelevel\kind-projector_3.3.1\0.13.2\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/typelevel/kind-projector_3.3.1/0.13.2/kind-projector_3.3.1-0.13.2.pom
+[error] Error downloading com.olegpy:better-monadic-for_3:0.3.1
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localcom.olegpy\better-monadic-for_3\0.3.1\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/olegpy/better-monadic-for_3/0.3.1/better-monadic-for_3-0.3.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),scalaInstance)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:kind-projector_3.3.1:0.13.2
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localorg.typelevel\kind-projector_3.3.1\0.13.2\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/typelevel/kind-projector_3.3.1/0.13.2/kind-projector_3.3.1-0.13.2.pom
+[error] Error downloading com.olegpy:better-monadic-for_3:0.3.1
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localcom.olegpy\better-monadic-for_3\0.3.1\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/olegpy/better-monadic-for_3/0.3.1/better-monadic-for_3-0.3.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)
+[error] Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),updateClassifiers)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Select(updateClassifiers), Zero),classifiersModule)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:kind-projector_3.3.1:0.13.2
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localorg.typelevel\kind-projector_3.3.1\0.13.2\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/typelevel/kind-projector_3.3.1/0.13.2/kind-projector_3.3.1-0.13.2.pom
+[error] Error downloading com.olegpy:better-monadic-for_3:0.3.1
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localcom.olegpy\better-monadic-for_3\0.3.1\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/olegpy/better-monadic-for_3/0.3.1/better-monadic-for_3-0.3.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:kind-projector_3.3.1:0.13.2
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localorg.typelevel\kind-projector_3.3.1\0.13.2\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/typelevel/kind-projector_3.3.1/0.13.2/kind-projector_3.3.1-0.13.2.pom
+[error] Error downloading com.olegpy:better-monadic-for_3:0.3.1
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localcom.olegpy\better-monadic-for_3\0.3.1\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/olegpy/better-monadic-for_3/0.3.1/better-monadic-for_3-0.3.1.pom))), directCause=None), Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(test)), Zero, Zero),externalDependencyClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(test)), Zero, Zero),managedClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:kind-projector_3.3.1:0.13.2
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localorg.typelevel\kind-projector_3.3.1\0.13.2\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/typelevel/kind-projector_3.3.1/0.13.2/kind-projector_3.3.1-0.13.2.pom
+[error] Error downloading com.olegpy:better-monadic-for_3:0.3.1
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localcom.olegpy\better-monadic-for_3\0.3.1\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/olegpy/better-monadic-for_3/0.3.1/better-monadic-for_3-0.3.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(test)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:kind-projector_3.3.1:0.13.2
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localorg.typelevel\kind-projector_3.3.1\0.13.2\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/typelevel/kind-projector_3.3.1/0.13.2/kind-projector_3.3.1-0.13.2.pom
+[error] Error downloading com.olegpy:better-monadic-for_3:0.3.1
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localcom.olegpy\better-monadic-for_3\0.3.1\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/olegpy/better-monadic-for_3/0.3.1/better-monadic-for_3-0.3.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(runtime)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:kind-projector_3.3.1:0.13.2
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localorg.typelevel\kind-projector_3.3.1\0.13.2\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/typelevel/kind-projector_3.3.1/0.13.2/kind-projector_3.3.1-0.13.2.pom
+[error] Error downloading com.olegpy:better-monadic-for_3:0.3.1
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localcom.olegpy\better-monadic-for_3\0.3.1\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/olegpy/better-monadic-for_3/0.3.1/better-monadic-for_3-0.3.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:kind-projector_3.3.1:0.13.2
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localorg.typelevel\kind-projector_3.3.1\0.13.2\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/typelevel/kind-projector_3.3.1/0.13.2/kind-projector_3.3.1-0.13.2.pom
+[error] Error downloading com.olegpy:better-monadic-for_3:0.3.1
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localcom.olegpy\better-monadic-for_3\0.3.1\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/olegpy/better-monadic-for_3/0.3.1/better-monadic-for_3-0.3.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(test)), Zero, Zero),bloopInternalClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(test)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:kind-projector_3.3.1:0.13.2
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localorg.typelevel\kind-projector_3.3.1\0.13.2\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/typelevel/kind-projector_3.3.1/0.13.2/kind-projector_3.3.1-0.13.2.pom
+[error] Error downloading com.olegpy:better-monadic-for_3:0.3.1
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localcom.olegpy\better-monadic-for_3\0.3.1\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/olegpy/better-monadic-for_3/0.3.1/better-monadic-for_3-0.3.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(runtime)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:kind-projector_3.3.1:0.13.2
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localorg.typelevel\kind-projector_3.3.1\0.13.2\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/typelevel/kind-projector_3.3.1/0.13.2/kind-projector_3.3.1-0.13.2.pom
+[error] Error downloading com.olegpy:better-monadic-for_3:0.3.1
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localcom.olegpy\better-monadic-for_3\0.3.1\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/olegpy/better-monadic-for_3/0.3.1/better-monadic-for_3-0.3.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:kind-projector_3.3.1:0.13.2
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localorg.typelevel\kind-projector_3.3.1\0.13.2\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/typelevel/kind-projector_3.3.1/0.13.2/kind-projector_3.3.1-0.13.2.pom
+[error] Error downloading com.olegpy:better-monadic-for_3:0.3.1
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localcom.olegpy\better-monadic-for_3\0.3.1\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/olegpy/better-monadic-for_3/0.3.1/better-monadic-for_3-0.3.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(test)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(test)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(test)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:kind-projector_3.3.1:0.13.2
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localorg.typelevel\kind-projector_3.3.1\0.13.2\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/typelevel/kind-projector_3.3.1/0.13.2/kind-projector_3.3.1-0.13.2.pom
+[error] Error downloading com.olegpy:better-monadic-for_3:0.3.1
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localcom.olegpy\better-monadic-for_3\0.3.1\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/olegpy/better-monadic-for_3/0.3.1/better-monadic-for_3-0.3.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(test)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(test)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:kind-projector_3.3.1:0.13.2
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localorg.typelevel\kind-projector_3.3.1\0.13.2\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/typelevel/kind-projector_3.3.1/0.13.2/kind-projector_3.3.1-0.13.2.pom
+[error] Error downloading com.olegpy:better-monadic-for_3:0.3.1
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localcom.olegpy\better-monadic-for_3\0.3.1\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/olegpy/better-monadic-for_3/0.3.1/better-monadic-for_3-0.3.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(test)), Zero, Zero),externalDependencyClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(test)), Zero, Zero),managedClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:kind-projector_3.3.1:0.13.2
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localorg.typelevel\kind-projector_3.3.1\0.13.2\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/typelevel/kind-projector_3.3.1/0.13.2/kind-projector_3.3.1-0.13.2.pom
+[error] Error downloading com.olegpy:better-monadic-for_3:0.3.1
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localcom.olegpy\better-monadic-for_3\0.3.1\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/olegpy/better-monadic-for_3/0.3.1/better-monadic-for_3-0.3.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(test)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:kind-projector_3.3.1:0.13.2
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localorg.typelevel\kind-projector_3.3.1\0.13.2\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/typelevel/kind-projector_3.3.1/0.13.2/kind-projector_3.3.1-0.13.2.pom
+[error] Error downloading com.olegpy:better-monadic-for_3:0.3.1
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localcom.olegpy\better-monadic-for_3\0.3.1\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/olegpy/better-monadic-for_3/0.3.1/better-monadic-for_3-0.3.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(runtime)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:kind-projector_3.3.1:0.13.2
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localorg.typelevel\kind-projector_3.3.1\0.13.2\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/typelevel/kind-projector_3.3.1/0.13.2/kind-projector_3.3.1-0.13.2.pom
+[error] Error downloading com.olegpy:better-monadic-for_3:0.3.1
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localcom.olegpy\better-monadic-for_3\0.3.1\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/olegpy/better-monadic-for_3/0.3.1/better-monadic-for_3-0.3.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:kind-projector_3.3.1:0.13.2
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localorg.typelevel\kind-projector_3.3.1\0.13.2\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/typelevel/kind-projector_3.3.1/0.13.2/kind-projector_3.3.1-0.13.2.pom
+[error] Error downloading com.olegpy:better-monadic-for_3:0.3.1
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localcom.olegpy\better-monadic-for_3\0.3.1\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/olegpy/better-monadic-for_3/0.3.1/better-monadic-for_3-0.3.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(test)), Zero, Zero),bloopInternalClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(test)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:kind-projector_3.3.1:0.13.2
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localorg.typelevel\kind-projector_3.3.1\0.13.2\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/typelevel/kind-projector_3.3.1/0.13.2/kind-projector_3.3.1-0.13.2.pom
+[error] Error downloading com.olegpy:better-monadic-for_3:0.3.1
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localcom.olegpy\better-monadic-for_3\0.3.1\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/olegpy/better-monadic-for_3/0.3.1/better-monadic-for_3-0.3.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(runtime)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:kind-projector_3.3.1:0.13.2
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localorg.typelevel\kind-projector_3.3.1\0.13.2\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/typelevel/kind-projector_3.3.1/0.13.2/kind-projector_3.3.1-0.13.2.pom
+[error] Error downloading com.olegpy:better-monadic-for_3:0.3.1
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localcom.olegpy\better-monadic-for_3\0.3.1\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/olegpy/better-monadic-for_3/0.3.1/better-monadic-for_3-0.3.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:kind-projector_3.3.1:0.13.2
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localorg.typelevel\kind-projector_3.3.1\0.13.2\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/typelevel/kind-projector_3.3.1/0.13.2/kind-projector_3.3.1-0.13.2.pom
+[error] Error downloading com.olegpy:better-monadic-for_3:0.3.1
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localcom.olegpy\better-monadic-for_3\0.3.1\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/olegpy/better-monadic-for_3/0.3.1/better-monadic-for_3-0.3.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),scalaInstance)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/grego/OneDrive/Scala-Lynx/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:kind-projector_3.3.1:0.13.2
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localorg.typelevel\kind-projector_3.3.1\0.13.2\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/typelevel/kind-projector_3.3.1/0.13.2/kind-projector_3.3.1-0.13.2.pom
+[error] Error downloading com.olegpy:better-monadic-for_3:0.3.1
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\grego\.ivy2\localcom.olegpy\better-monadic-for_3\0.3.1\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/olegpy/better-monadic-for_3/0.3.1/better-monadic-for_3-0.3.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)
