@@ -1,0 +1,47 @@
+2023.11.06 18:10:22 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\grego\OneDrive\Scala-Lynx' for client Visual Studio Code 1.84.0.
+2023.11.06 18:10:23 WARN  Build server is not auto-connectable.
+2023.11.06 18:10:23 WARN  no build target for: C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\src\main\scala\Lynx\org\lynxcats\LynxcatsRoutes.scala
+2023.11.06 18:10:26 INFO  running 'C:\Program Files\Eclipse Adoptium\jdk-17.0.1.12-hotspot\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\grego\AppData\Local\Temp\metals10425689446975531154\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.11.06 18:10:29 INFO  [info] welcome to sbt 1.9.6 (Eclipse Adoptium Java 17.0.1)
+2023.11.06 18:10:32 INFO  no build target found for C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\src\main\scala\Lynx\org\lynxcats\LynxcatsRoutes.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.06 18:10:32 INFO  [info] loading global plugins from C:\Users\grego\.sbt\1.0\plugins
+2023.11.06 18:10:33 WARN  no build target for: C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\src\main\scala\Lynx\org\lynxcats\LynxcatsServer.scala
+2023.11.06 18:10:37 INFO  time: code lens generation in 4.14s
+2023.11.06 18:10:37 INFO  time: code lens generation in 10s
+2023.11.06 18:10:37 INFO  time: code lens generation in 14s
+2023.11.06 18:10:37 WARN  no build target for: C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\src\main\scala\Lynx\org\lynxcats\LynxcatsRoutes.scala
+2023.11.06 18:10:41 INFO  [info] loading settings for project lynxcats-build-build-build from metals.sbt ...
+2023.11.06 18:10:41 INFO  [info] loading project definition from C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\project\project\project
+2023.11.06 18:10:44 INFO  [info] loading settings for project lynxcats-build-build from metals.sbt ...
+2023.11.06 18:10:44 INFO  [info] loading project definition from C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\project\project
+2023.11.06 18:10:46 INFO  [success] Generated .bloop\lynxcats-build-build.json
+2023.11.06 18:10:46 INFO  [success] Total time: 2 s, completed 6 Nov 2023, 18:10:46
+2023.11.06 18:10:48 INFO  [info] loading settings for project lynxcats-build from metals.sbt,plugins.sbt ...
+2023.11.06 18:10:48 INFO  [info] loading project definition from C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\project
+2023.11.06 18:10:48 WARN  no build target for: C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\src\main\scala\Lynx\org\lynxcats\HelloWorld.scala
+2023.11.06 18:10:57 INFO  [success] Generated .bloop\lynxcats-build.json
+2023.11.06 18:10:57 INFO  [success] Total time: 10 s, completed 6 Nov 2023, 18:10:57
+2023.11.06 18:10:59 INFO  [info] loading settings for project root from build.sbt ...
+2023.11.06 18:10:59 INFO  [info] set current project to lynxcats (in build file:/C:/Users/grego/OneDrive/Scala-Lynx/lynxcats/)
+2023.11.06 18:11:00 WARN  no build target for: C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\src\main\scala\Lynx\org\lynxcats\Jokes.scala
+2023.11.06 18:11:03 INFO  [success] Generated .bloop\root.json
+2023.11.06 18:11:03 INFO  [success] Generated .bloop\root-test.json
+2023.11.06 18:11:03 INFO  [success] Total time: 3 s, completed 6 Nov 2023, 18:11:03
+2023.11.06 18:11:03 INFO  time: ran 'sbt bloopInstall' in 36s
+2023.11.06 18:11:03 INFO  Attempting to connect to the build server...
+2023.11.06 18:11:03 INFO  Bloop uses C:\Program Files\Eclipse Adoptium\jdk-17.0.1.12-hotspot defined at C:\Users\grego\.bloop\bloop.json
+2023.11.06 18:11:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\grego\OneDrive\Scala-Lynx\.metals\bsp.trace.json or C:\Users\grego\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.06 18:11:03 INFO  time: Connected to build server in 0.57s
+2023.11.06 18:11:03 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.06 18:11:05 INFO  compiling root (5 scala sources)
+2023.11.06 18:11:13 INFO  time: indexed workspace in 9.08s
+2023.11.06 18:11:34 INFO  time: compiled root in 28s
+2023.11.06 18:11:34 INFO  Deduplicating compilation of root from bsp client 'Metals 1.1.0' (since 30.515s)
+2023.11.06 18:11:34 INFO  compiling root-test (1 scala source)
+2023.11.06 18:11:46 INFO  time: compiled root-test in 11s
+Nov 06, 2023 6:17:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 118
+Nov 06, 2023 6:27:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 205
+Nov 06, 2023 6:30:53 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
