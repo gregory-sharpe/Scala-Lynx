@@ -22,4 +22,9 @@ object LynxcatsRoutes:
           greeting <- H.hello(HelloWorld.Name(name))
           resp <- Ok(greeting)
         } yield resp
+      
     }
+  def joinGame():HttpRoutes[IO]= ???
+  def bet(amount : Int):HttpRoutes[IO] = ???
+  def check():HttpRoutes[IO] = ???
+  def fold():HttpRoutes[IO] = ???

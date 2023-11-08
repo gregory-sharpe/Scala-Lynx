@@ -29,3 +29,4 @@ object HelloWorld:
   def impl: HelloWorld = new HelloWorld:
     def hello(n: HelloWorld.Name): IO[HelloWorld.Greeting] =
       Greeting("Hello, " + n.name).pure[IO]
+      

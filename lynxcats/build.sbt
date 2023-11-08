@@ -11,13 +11,14 @@ lazy val root = (project in file("."))
     version := "0.0.1-SNAPSHOT",
     scalaVersion := "3.3.0",
     libraryDependencies ++= Seq(
-      "org.http4s"      %% "http4s-ember-server" % Http4sVersion,
-      "org.http4s"      %% "http4s-ember-client" % Http4sVersion,
-      "org.http4s"      %% "http4s-circe"        % Http4sVersion,
-      "org.http4s"      %% "http4s-dsl"          % Http4sVersion,
-      "org.scalameta"   %% "munit"               % MunitVersion           % Test,
-      "org.typelevel"   %% "munit-cats-effect-3" % MunitCatsEffectVersion % Test,
-      "ch.qos.logback"  %  "logback-classic"     % LogbackVersion,
+      "org.http4s" %% "http4s-ember-server" % Http4sVersion,
+      "org.http4s" %% "http4s-ember-client" % Http4sVersion,
+      "org.http4s" %% "http4s-circe" % Http4sVersion,
+      "org.http4s" %% "http4s-dsl" % Http4sVersion,
+      "org.scalameta" %% "munit" % MunitVersion % Test,
+      "org.typelevel" %% "munit-cats-effect-3" % MunitCatsEffectVersion % Test,
+      "ch.qos.logback" % "logback-classic" % LogbackVersion,
+      "org.scalatest" %% "scalatest" % "3.2.15" % "test"
     ),
     assembly / assemblyMergeStrategy := {
       case "module-info.class" => MergeStrategy.discard
