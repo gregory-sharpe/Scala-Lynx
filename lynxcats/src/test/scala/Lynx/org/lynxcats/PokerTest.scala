@@ -19,7 +19,7 @@ class PokerSuite extends AnyWordSpec {
   "Card ranking" should {
     import CardValue.* 
     import Suit.*
-    import HandRanking.*
+    import HandRankings.*
 
     val pair = List((Three of Hearts),(Three of Diamonds))
     val _2pair = (Four of Diamonds)::(Four of Clubs)::pair

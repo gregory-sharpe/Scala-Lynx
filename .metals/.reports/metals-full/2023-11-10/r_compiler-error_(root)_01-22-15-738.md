@@ -1,3 +1,13 @@
+file:///C:/Users/grego/OneDrive/Scala-Lynx/lynxcats/src/main/scala/Lynx/org/lynxcats/Poker.scala
+### java.nio.file.InvalidPathException: Illegal char <:> at index 3: jar:file:///C:/Users/grego/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10-sources.jar!/scala/Option.scala
+
+occurred in the presentation compiler.
+
+action parameters:
+offset: 3104
+uri: file:///C:/Users/grego/OneDrive/Scala-Lynx/lynxcats/src/main/scala/Lynx/org/lynxcats/Poker.scala
+text:
+```scala
 package Lynx.org.lynxcats
 import scala.util.Random
 import scala.util.Try
@@ -30,8 +40,8 @@ object Poker {
   enum HandRankings {
     case HighCard, Pair, TwoPair, ThreeOfAKind, Straight, Flush, FullHouse,
       FourOfAKind, StraightFlush
-    def >(that: HandRankings) = this.ordinal > that.ordinal
-    def <(that: HandRankings) = this.ordinal < that.ordinal
+    infix def >(that: HandRankings) = this.ordinal > that.ordinal
+    infix def <(that: HandRankings) = this.ordinal < that.ordinal
   }
 
   case class Card(
@@ -39,6 +49,7 @@ object Poker {
       value: CardValue,
       private val handRank: HandRankings = HighCard
   ) {
+    def getValue = value.ordinal + 1
     override def toString(): String = s"$value of $suit"
     def giveRank(rank: HandRankings): Card = {
       if (rank > handRank) {
@@ -47,8 +58,8 @@ object Poker {
     }
   }
   def getRanking(hand:cards) = ???
-  case class Deck(deck: cards, revealedCards: cards = List.empty) { 
-    def shuffle = Deck(Random.shuffle(deck)) 
+  case class Deck(deck: cards, revealedCards: cards = List.empty) { // make it use the state monad
+    def shuffle = Deck(Random.shuffle(deck)) // make recreatable
     private def reveal: Deck =
       Deck(deck.tail, revealedCards.prepended(deck.head))
     def deal: Deck = {
@@ -97,24 +108,50 @@ object Poker {
     val x =
       (Seven of Diamonds) :: (Six of Clubs) :: (List(Two, Three, Four, Five)
         .map(_ of Diamonds))
+    val PossibleStraights = (1 to 14).map { ordinal =>
+      val s = for {
+        value1 <- CardValue.safeFromOrdinal(ordinal).ma@@
+        _ <- x.find(_.value==value1)
+        value2 <- CardValue.safeFromOrdinal(ordinal + 1)
+        _ <- x.find(_.value==value2)
+        value3 <- CardValue.safeFromOrdinal(ordinal + 2)
+        _ <- x.find(_.value==value3)
+        value4 <- CardValue.safeFromOrdinal(ordinal + 3)
+        _ <- x.find(_.value==value4)
+        value5 <- CardValue.safeFromOrdinal(ordinal + 4)
+        _ <- x.find(_.value==value5)
+        l = List(value1, value2, value3, value4, value5)
+      } yield println( l.map(cv=> x.find(_.value==cv)).flatten)
 
+    }
   }
 }
 
-/*
-    val PossibleStraights = (1 to 14).map { ordinal =>
-      val s = (for {
-        value1 <- CardValue.safeFromOrdinal(ordinal)
-        s1 <- x.find(_.value==value1)
-        value2 <- CardValue.safeFromOrdinal(ordinal + 1)
-        s2 <- x.find(_.value==value2)
-        value3 <- CardValue.safeFromOrdinal(ordinal + 2)
-        s3 <- x.find(_.value==value3)
-        value4 <- CardValue.safeFromOrdinal(ordinal + 3)
-        s4 <- x.find(_.value==value4)
-        value5 <- CardValue.safeFromOrdinal(ordinal + 4)
-        s5 <- x.find(_.value==value5)
-        l = List(s1,s2,s3,s4,s5)
-      } yield l)
-    }
-*/
+```
+
+
+
+#### Error stacktrace:
+
+```
+java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	java.base/java.nio.file.Path.of(Path.java:147)
+	java.base/java.nio.file.Paths.get(Paths.java:69)
+	scala.meta.io.AbsolutePath$.apply(AbsolutePath.scala:60)
+	scala.meta.internal.metals.MetalsSymbolSearch.$anonfun$definitionSourceToplevels$2(MetalsSymbolSearch.scala:62)
+	scala.Option.map(Option.scala:242)
+	scala.meta.internal.metals.MetalsSymbolSearch.definitionSourceToplevels(MetalsSymbolSearch.scala:61)
+	scala.meta.internal.pc.completions.CaseKeywordCompletion$.sortSubclasses(MatchCaseCompletions.scala:306)
+	scala.meta.internal.pc.completions.CaseKeywordCompletion$.matchContribute(MatchCaseCompletions.scala:254)
+	scala.meta.internal.pc.completions.Completions.advancedCompletions(Completions.scala:375)
+	scala.meta.internal.pc.completions.Completions.completions(Completions.scala:183)
+	scala.meta.internal.pc.completions.CompletionProvider.completions(CompletionProvider.scala:86)
+	scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:123)
+```
+#### Short summary: 
+
+java.nio.file.InvalidPathException: Illegal char <:> at index 3: jar:file:///C:/Users/grego/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10-sources.jar!/scala/Option.scala
