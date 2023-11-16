@@ -29,7 +29,7 @@ object Poker {
     def distance(a: CardValue, b: CardValue) =
       (a, b) match // use on an ascending ordered list only
         case (Ace, Two)  => 1
-        case (Ace, King) => 11
+        case (Ace, King) => 13
         case (c, d)      => math.abs(c.ordinal-d.ordinal)
 
   }
@@ -88,10 +88,10 @@ object Poker {
       val suitCount = cards.groupBy(_.suit).mapValues(_.size).toMap
       val values = cards.map(_.value)
       val sortedCards = cards.find(_.value == Ace) match
-        case Some(ace) =>ace :: (cards.distinctBy(_.value).sorted)
+        case Some(ace) =>ace :: (cards.distinctBy(_.value).sorted)// simulating Ace Low
         case None      => cards.distinctBy(_.value).sorted
       val possibleStraights =
-        sortedCards // will not work due to aces being ace high.
+        sortedCards
           .sliding(5)
           .filter(_.sliding(2).forall {
 
