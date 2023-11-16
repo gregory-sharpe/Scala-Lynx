@@ -16,6 +16,8 @@ class PokerSuite extends AnyWordSpec {
       assert(Deck.unshuffled52.shuffle.deck != Deck.unshuffled52.deck)
     } 
   }
+  
+  
   "Card ranking" should {
     import CardValue.* 
     import Suit.*
@@ -25,10 +27,12 @@ class PokerSuite extends AnyWordSpec {
     val _2pair = (Four of Diamonds)::(Four of Clubs)::pair
     val _3OfKind = (Three of Clubs)::pair
     val _4OfKind =(Three of Spades)::_3OfKind
-    val almostStraight = (List(Two,Three,Four,Five).map(_ of Diamonds ))
-    val straight = (Six of Clubs)::almostStraight
-    val flush = (King of Diamonds)::almostStraight
-    val straightFlush = (Six of Diamonds)::almostStraight
+    val almostStraightFlush = (List(Two,Three,Four,Five).map(_ of Diamonds ))
+    val straight = (Six of Clubs)::almostStraightFlush
+    val flush = (King of Diamonds)::almostStraightFlush
+    val straightFlush = (Six of Diamonds)::almostStraightFlush
+    val falseStraightFlush = List(King,Ace,Two,Three,Four).map(_ of Diamonds)
+    val straightWithDupes  = (Six of Clubs):: (Five of Clubs)::almostStraightFlush
     "return a pair" in {
       assert(getRanking(pair)== Pair)
     }
@@ -51,7 +55,13 @@ class PokerSuite extends AnyWordSpec {
       assert(getRanking(straightFlush)==StraightFlush)
     }
     "return High Card" in {
-      assert(getRanking(almostStraight)==HighCard)
+      assert(getRanking(almostStraightFlush)==HighCard)
+    }
+    "not return a straight flush" in {
+      assert(getRanking(falseStraightFlush)!=StraightFlush)
+    }
+    "duplicated card values should still return straights" in {
+      assert(getRanking(straightWithDupes) == Straight)
     }
   }
 
