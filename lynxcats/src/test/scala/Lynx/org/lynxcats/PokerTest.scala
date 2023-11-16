@@ -33,6 +33,8 @@ class PokerSuite extends AnyWordSpec {
     val straightFlush = (Six of Diamonds)::almostStraightFlush
     val falseStraightFlush = List(King,Ace,Two,Three,Four).map(_ of Diamonds)
     val straightWithDupes  = (Six of Clubs):: (Five of Clubs)::almostStraightFlush
+    val aceLowStraight = (Ace of Clubs):: almostStraightFlush
+    val aceHighStraight = (Ace of Clubs)::List(King,Queen,Jack,Ten).map(_ of Diamonds)
     "return a pair" in {
       assert(getRanking(pair)== Pair)
     }
@@ -60,8 +62,14 @@ class PokerSuite extends AnyWordSpec {
     "not return a straight flush" in {
       assert(getRanking(falseStraightFlush)!=StraightFlush)
     }
-    "duplicated card values should still return straights" in {
+    "still return a Straight if there are duplicated card values" in {
       assert(getRanking(straightWithDupes) == Straight)
+    }
+    "return a Straight using Ace Low" in {
+      assert(getRanking(aceLowStraight)==Straight)
+    }
+    "return a Straight when using Ace high" in {
+      assert(getRanking(aceHighStraight)==Straight)
     }
   }
 

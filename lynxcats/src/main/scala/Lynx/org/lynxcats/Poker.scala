@@ -29,7 +29,7 @@ object Poker {
     def distance(a: CardValue, b: CardValue) =
       (a, b) match // use on an ascending ordered list only
         case (Ace, Two)  => 1
-        case (King, Ace) => 11
+        case (Ace, King) => 11
         case (c, d)      => math.abs(c.ordinal-d.ordinal)
 
   }
