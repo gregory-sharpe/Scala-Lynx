@@ -1,6 +1,7 @@
-package Lynx.org.lynxcats
-import Lynx.org.lynxcats.Poker.*
+package Lynx.org.lynxcats.Poker
+import Poker.*
 import org.scalatest.wordspec.AnyWordSpec
+import org.scalatest.funsuite.AnyFunSuiteLike
 class PokerSuite extends AnyWordSpec {
   "A Deck of Cards" should {
     "Contain 52 cards" in {
@@ -73,4 +74,25 @@ class PokerSuite extends AnyWordSpec {
     }
   }
 
+}
+
+class EncryptionSuide extends AnyWordSpec{
+    "General encryption:" should{
+    val deck = Deck.unshuffled52
+    "Ensure that each card has a unique hashcode" in{
+      val hashvalues = deck.map(_.hashCode())
+      assert(deck.deck.size == hashvalues.distinct.size)
+    }
+    "Ensure that the The hashing algorithm is commutative" ignore {
+      assert(false,"not implemented")
+    }
+    "Only use cards in their default configuration(Rank property should be high card regardless)" ignore
+    {
+      assert(false,"not implementedYet")
+    }
+    " be fast" ignore{
+      assert(false,"Not Implemented")
+    }
+
+  }
 }
