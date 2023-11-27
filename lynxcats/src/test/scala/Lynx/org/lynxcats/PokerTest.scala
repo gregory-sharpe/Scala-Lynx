@@ -88,7 +88,7 @@ class EncryptionSuide extends AnyWordSpec{
     }
     "Only use cards in their default configuration(Rank property should be high card regardless)" ignore
     {
-      assert(false,"not implementedYet")
+      assert(false,"not implemented")
     }
     " be fast" ignore{
       assert(false,"Not Implemented")

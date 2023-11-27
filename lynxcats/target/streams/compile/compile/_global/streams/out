@@ -1,2 +1,18 @@
-[0m[[0m[33mwarn[0m] [0m[0mthere were 2 deprecation warnings; re-run with -deprecation for details[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E040] Syntax Error: C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\src\main\scala\Lynx\org\lynxcats\Poker\PokerDeck.scala:7:45 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m7 |[0m[33mimport[0m Lynx.org.lynxcats.Poker.Poker.{Player,}[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                             ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                                     an identifier expected, but '}' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\src\main\scala\Lynx\org\lynxcats\Poker\PokerDeck.scala:7:38 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m7 |[0m[33mimport[0m Lynx.org.lynxcats.Poker.Poker.{Player,}[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                      ^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m     value Player is not a member of object Lynx.org.lynxcats.Poker.Poker²[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m     where:    Poker  is a package in [33mpackage[0m [35mLynx.org.lynxcats[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m               Poker² is a object in [33mpackage[0m [35mLynx.org.lynxcats.Poker[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\src\main\scala\Lynx\org\lynxcats\Poker\PokerDeck.scala:8:9 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m8 |[0m  [33mimport[0m CardValue.*[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m         ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m         Not found: CardValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

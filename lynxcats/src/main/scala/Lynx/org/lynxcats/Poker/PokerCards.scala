@@ -9,9 +9,8 @@ import cats.Eval
 import cats.data.State
 object Poker {
   import CardValue.*
-  import Suit.*//tr
+  import Suit.* // tr
   import HandRankings.*
-  import Action.*
   type cards = List[Card]
   type players = List[Player]
   type deckState[A] = State[Deck, A]
@@ -74,28 +73,6 @@ object Poker {
     highestRank
   }
 
-  case class User(name: String, wallet: Int, ID: Int) {
-    override def toString(): String = s"$name has £$wallet left"
-  }
-
-  case class Player(user: User, hand: cards) {
-    override def toString(): String = s" ${user.name} has cards $hand "
-  }
-  object Player {
-    def foldCards: IndexedStateT[Eval, Action, Folded.type, Unit] =
-      IndexedStateT.set(Folded)
-
-  }
-
-  enum Action {
-    case Undecided
-    case Folded
-    case Check
-    case Bet(value: Int)
-    case Raise(Value: Int)
-    case AllIn
-  }
-
   @main
   def pokerMain(args: String*) = {
     val deck = Deck.unshuffled52
@@ -104,7 +81,7 @@ object Poker {
     val users = List(User("A", 100, 1), User("B", 100, 2), User("C", 100, 3))
     // val x = Deck.deal.flatMap(_=>Deck.deal)
     // testing stuff
-  
+
     val w = users.traverse(Deck.dealTo).runA(deckdealt).value
     println(w)
   }

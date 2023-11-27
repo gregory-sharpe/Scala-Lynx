@@ -8,7 +8,6 @@ import Lynx.org.lynxcats.Poker.Poker.*
   import CardValue.*
   import Suit.*
   import HandRankings.*
-  import Action.*
   case class Deck(deck: cards, revealedCards: cards = List.empty) {
     // oop approach
     def shuffle = this.copy(deck = Random.shuffle(deck))
