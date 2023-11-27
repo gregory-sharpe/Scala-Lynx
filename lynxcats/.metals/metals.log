@@ -5723,3 +5723,4 @@ WARNING: Unmatched cancel notification for request id 24608
 2023.11.27 10:37:11 INFO  compiling root (2 scala sources)
 2023.11.27 10:37:11 INFO  time: compiled root in 0.68s
 2023.11.27 10:37:37 INFO  compiling root (2 scala sources)
+2023.11.27 10:37:37 INFO  time: compiled root in 0.93s
