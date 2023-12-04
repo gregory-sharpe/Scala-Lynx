@@ -1,0 +1,27 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__runWatch console0, Some(426077ae-501d-4f48-9e05-b48dfdfe7ebd), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__preWatch console0, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\target\scala-3.3.0\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\src\main\scala\Lynx\org\lynxcats\Poker\Pot.scala:25:46 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m25 |[0m[33mtype[0m [35mbettableStates[0m = NoAdditionalBets.[33mtype[0m [35m|[0m CurrentBet.[33mtype[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                              ^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                              Not found: CurrentBet[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\src\main\scala\Lynx\org\lynxcats\Poker\Pot.scala:34:59 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m34 |[0m  [33mdef[0m [36mbet[0m([36mplayer[0m:[35mPlayer[0m):[35mIndexedStateT[0m[[35mEval[0m,[35mbettableStates[0m,[35mCurrentBet[0m,[35mPlayer[0m] = [41m???[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                           ^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                              Not found: type CurrentBet[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 26 Nov 2023, 00:23:53[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__postWatch console0, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__waitWatch console0, None, None)[0m

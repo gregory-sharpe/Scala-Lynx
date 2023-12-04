@@ -1,10 +1,9 @@
-package Lynx.org.lynxcats.Poker
+package lynxcats.Poker
 import scala.util.Random
 import cats.data.State
 import cats.syntax.functor._
 import cats.syntax.traverse._
-import Lynx.org.lynxcats.Poker.*
-import Lynx.org.lynxcats.Poker.Poker.*
+import PokerCards.*
   import CardValue.*
   import Suit.*
   import HandRankings.*
@@ -23,7 +22,7 @@ import Lynx.org.lynxcats.Poker.Poker.*
       this.deck.map(f)
     }
 
-  }
+  }//
 
   object Deck {
     // functional approach using states. this might useful for mental poker
@@ -35,7 +34,7 @@ import Lynx.org.lynxcats.Poker.Poker.*
       val shuffledDeck = Random.shuffle(state.deck)
       state.copy(deck = shuffledDeck)
     }
-    def reveal: deckState[Card] = State { state =>
+    def reveal: State[Deck,Card] = State { state =>
       val topCard = state.deck.head
       val newDeck = Deck(
         deck = state.deck.tail,
@@ -43,7 +42,7 @@ import Lynx.org.lynxcats.Poker.Poker.*
       )
       (newDeck, topCard)
     }
-    def deal: deckState[Unit] = State { state =>
+    def deal: State[Deck,Unit] = State { state =>
       println("compiled")
       state.revealedCards.size match
         case 0 =>
@@ -53,8 +52,8 @@ import Lynx.org.lynxcats.Poker.Poker.*
         case 3 | 4 => reveal.as(()).run(state).value
         case _     => (state, ())
     }
-    def dealTo(user: User): deckState[Player] = State { state =>
-      val player = Player(user, state.deck.take(2))
+    def dealTo(user: User): State[Deck,Player] = State { state =>
+      val player = Player(user, state.deck.take(2),100)
       val restOfDeck = state.deck.drop(2)
       (state.copy(deck = restOfDeck), player)
     }

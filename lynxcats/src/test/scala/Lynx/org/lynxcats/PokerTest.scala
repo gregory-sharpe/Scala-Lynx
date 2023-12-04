@@ -1,5 +1,5 @@
-package Lynx.org.lynxcats.Poker
-import Poker.*
+package lynxcats.Poker
+import PokerCards.*
 import org.scalatest.wordspec.AnyWordSpec
 import org.scalatest.funsuite.AnyFunSuiteLike
 class PokerSuite extends AnyWordSpec {
@@ -17,7 +17,7 @@ class PokerSuite extends AnyWordSpec {
       assert(Deck.unshuffled52.shuffle.deck != Deck.unshuffled52.deck)
     } 
   }
-  
+
   
   "Card ranking" should {
     import CardValue.* 

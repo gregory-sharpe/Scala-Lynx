@@ -1,4 +1,4 @@
-package Lynx.org.lynxcats.Poker
+package lynxcats.Poker
 import scala.util.Random
 import scala.util.Try
 import cats.instances.unit
@@ -7,7 +7,8 @@ import cats.syntax.traverse._
 import cats.data.IndexedStateT
 import cats.Eval
 import cats.data.State
-object Poker {
+
+object PokerCards {
   import CardValue.*
   import Suit.* // tr
   import HandRankings.*
@@ -76,9 +77,8 @@ object Poker {
   @main
   def pokerMain(args: String*) = {
     val deck = Deck.unshuffled52
-
     val deckdealt = Deck.deal.runS(deck).value
-    val users = List(User("A", 100, 1), User("B", 100, 2), User("C", 100, 3))
+    val users = List(User("A", 1), User("B", 2), User("C", 3))
     // val x = Deck.deal.flatMap(_=>Deck.deal)
     // testing stuff
 

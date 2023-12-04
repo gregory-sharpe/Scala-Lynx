@@ -1,6 +1,5 @@
-package Lynx.org.lynxcats.Poker
-import Lynx.org.lynxcats.Poker.*
-import Lynx.org.lynxcats.Poker.Poker.*//{CardValue,Suit,HandRankings}
+package lynxcats.Poker
+import lynxcats.Poker.Player
 import scala.util.Random
 import cats.data.State
 import cats.data.IndexedStateT
@@ -8,29 +7,72 @@ import cats.Eval
 import potStates.*
 import cats.data.StateT
 import cats.instances.unit
+import cats.data.IndexedState
 type Players = List[Player]
 type potSize = Int; type bet = Int
 // make into a sealed trait instead
 sealed trait bettableStates
+// pattern 1
+
 enum potStates{
-    case NoSmallBlind(value:potSize,players:Players)
-    case NoBigBlind(value:potSize,players:Players)
-    case NoAdditionalBets(value:potSize,players:Players) extends potStates,bettableStates
-    case BetInProgress(value:potSize,players:Players,minBet:bet) extends potStates,bettableStates
+  case NoSmallBlind(pot: Pot)
+  case NoBigBlind(pot: Pot)
+  case NoAdditionalBets(pot: Pot) extends potStates, bettableStates
+  case BetInProgress(pot: Pot) extends potStates, bettableStates
 }
+case class Pot(
+    value: potSize,
+    minBet: potSize,
+    smallBlind: potSize = 2
+)
+//IDEA https://www.youtube.com/watch?v=_QZan0Yq5Dcs
 
-//IDEA 2 https://www.youtube.com/watch?v=_QZan0Yq5Dc
 object Pot {
-  def empty(players:Players) = NoSmallBlind(0,players)
-  def addSmallBlind(sb:bet,player:Player):IndexedStateT[Eval,NoSmallBlind,NoBigBlind,Player] = IndexedStateT{state=> 
-    
+  def empty = Pot(0,0,2)
+  def nextPlayer:State[potStates,Player] = ???
+  def addSmallBlind(
+      player: Player
+  ): IndexedStateT[Eval, NoSmallBlind, NoBigBlind, Player] = IndexedState{case  NoSmallBlind(pot) =>
+    val updatedPlayer = Player.bet(pot.smallBlind).runS(player).value
+    val updatedPotAmount = Player.bet(pot.smallBlind).runA(player).value + pot.value
+    val updatedPot = pot.copy(value = updatedPotAmount)
+    (NoBigBlind(updatedPot),updatedPlayer)
   }
-  def addBigBlind(bb:bet,player:Player):IndexedStateT[Eval,NoBigBlind,NoAdditionalBets,Player]= ???
-  def fold(player:Player):StateT[Eval,bettableStates,Player] = ???
-  def bet(player:Player,bet:bet):IndexedStateT[Eval,bettableStates,BetInProgress,Player] = ???
-  def raise(player:Player,bet:bet):IndexedStateT[Eval,bettableStates,BetInProgress,Player] = ???
-  def AllIn(player:Player,bet:bet):IndexedStateT[Eval,bettableStates,BetInProgress,Player] = ???
-  def check(player:Player):StateT[Eval,NoAdditionalBets,Player] = ???
-  def finishRound():StateT[Eval, bettableStates,List[potStates]] = ???
 
+  def addBigBlind(
+      player: Player
+  ): IndexedStateT[Eval, NoBigBlind, NoAdditionalBets, Player] = IndexedState{ case NoBigBlind(pot) => 
+    val bigBlind = pot.smallBlind*2
+    val updatedPlayer = Player.bet(bigBlind).runS(player).value
+    val updatedPotAmount = Player.bet(bigBlind).runA(player).value + pot.value
+    val updatedPot = pot.copy(value = updatedPotAmount,minBet = bigBlind)
+    (NoAdditionalBets(updatedPot),updatedPlayer)
+  }
+  def fold(player: Player): StateT[Eval, bettableStates, Player] = IndexedState{state=>
+    val updatedPlayer = Player.fold.runS(player).value
+    state match
+        case NoAdditionalBets(pot) => 
+            (NoAdditionalBets(pot),updatedPlayer)
+        case BetInProgress(pot) =>
+            (BetInProgress(pot),updatedPlayer)
+  }
+  def bet(
+      player: Player,
+      betAmount: bet
+  ): IndexedStateT[Eval,bettableStates, BetInProgress, Player] = IndexedState{state=>
+    val updatedPlayer = Player.bet(betAmount).runS(player).value
+    // how can you nicely extract pot without pattern matching on the state 
+    val pot = state match
+        case NoAdditionalBets(pot) => pot
+        case BetInProgress(pot) =>pot 
+    val updatedPotAmount:Int =  Player.bet(betAmount).runA(player).value + pot.value
+    val updatedPot = pot.copy(value = updatedPotAmount,minBet = betAmount)
+    (BetInProgress(updatedPot),updatedPlayer)  
+  }
+  def check(player: Player): StateT[Eval, NoAdditionalBets, Player] = State{case NoAdditionalBets(pot)=>
+    val updatedPlayer = Player.check.runS(player).value
+    (NoAdditionalBets(pot),updatedPlayer)
+  }
+  def finishRound(): StateT[Eval, bettableStates, List[potStates]] = ???
+    
 }

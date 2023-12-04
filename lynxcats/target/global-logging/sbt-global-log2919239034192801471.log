@@ -1,0 +1,127 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__runWatch console0, Some(64528960-1d56-4b5d-ae87-4536f5850b52), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__preWatch console0, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\target\scala-3.3.0\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\src\main\scala\Lynx\org\lynxcats\Poker\PokerDeck.scala:3:24 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m3 |[0m  [33mcase class[0m [35mDeck[0m([36mdeck[0m: [35mcards[0m, [36mrevealedCards[0m: [35mcards[0m = List.empty) {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                        ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                        Not found: type cards[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\src\main\scala\Lynx\org\lynxcats\Poker\PokerDeck.scala:3:46 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m3 |[0m  [33mcase class[0m [35mDeck[0m([36mdeck[0m: [35mcards[0m, [36mrevealedCards[0m: [35mcards[0m = List.empty) {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                              ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                                              Not found: type cards[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\src\main\scala\Lynx\org\lynxcats\Poker\PokerDeck.scala:53:29 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m53 |[0m    [33mdef[0m [36mgiveCardsRank[0m([36mcards[0m: [35mcards[0m) = {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                             ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                             Not found: type cards[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\src\main\scala\Lynx\org\lynxcats\Poker\PokerDeck.scala:76:25 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m76 |[0m      [33mval[0m [36mcardsWithRank[0m: [35mcards[0m = cards[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                         ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                         Not found: type cards[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\src\main\scala\Lynx\org\lynxcats\Poker\PokerDeck.scala:23:14 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m23 |[0m      suit <- Suit.values[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m              ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m              Not found: Suit[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\src\main\scala\Lynx\org\lynxcats\Poker\PokerDeck.scala:38:14 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m38 |[0m    [33mdef[0m [36mdeal[0m: [35mdeckState[0m[[35mUnit[0m] = State { [36mstate[0m =>[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m              ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m              Not found: type deckState[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\src\main\scala\Lynx\org\lynxcats\Poker\PokerDeck.scala:48:21 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m48 |[0m    [33mdef[0m [36mdealTo[0m([36muser[0m: [35mUser[0m): [35mdeckState[0m[[35mPlayer[0m] = State { [36mstate[0m =>[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                     ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                     Not found: type User[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\src\main\scala\Lynx\org\lynxcats\Poker\PokerDeck.scala:48:28 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m48 |[0m    [33mdef[0m [36mdealTo[0m([36muser[0m: [35mUser[0m): [35mdeckState[0m[[35mPlayer[0m] = State { [36mstate[0m =>[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                            ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                            Not found: type deckState[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\src\main\scala\Lynx\org\lynxcats\Poker\PokerDeck.scala:48:38 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m48 |[0m    [33mdef[0m [36mdealTo[0m([36muser[0m: [35mUser[0m): [35mdeckState[0m[[35mPlayer[0m] = State { [36mstate[0m =>[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                      ^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                      Not found: type Player[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E172] Type Error: C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\src\main\scala\Lynx\org\lynxcats\Poker\PokerCards.scala:142:39 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m142 |[0m    [33mval[0m [36mw[0m = users.traverse(Deck.dealTo).runA(deckdealt).value[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                       ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0mNo given instance of type cats.Applicative[[_] =>> Any] was found for parameter ev$1 of [33mmethod[0m [35mtraverse[0m in [33mtrait[0m [35mOps[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\src\main\scala\Lynx\org\lynxcats\Poker\PokerDeck.scala:5:35 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m5 |[0m    [33mdef[0m [36mshuffle[0m = [33mthis[0m.copy(deck = Random.shuffle(deck))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                   ^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                                   Not found: Random[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\src\main\scala\Lynx\org\lynxcats\Poker\PokerDeck.scala:14:18 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m14 |[0m    [33mdef[0m [36mmap[0m[[35mA[0m]([36mf[0m: [35mCard[0m => [35mA[0m): [35mList[0m[[35mA[0m] = {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                  ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                  Not found: type Card[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\src\main\scala\Lynx\org\lynxcats\Poker\PokerDeck.scala:26:17 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m26 |[0m    [33mdef[0m [36mshuffle[0m: [35mdeckState[0m[[35mUnit[0m] = State.modify { [36mstate[0m =>[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                 ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                 Not found: type deckState[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\src\main\scala\Lynx\org\lynxcats\Poker\PokerDeck.scala:26:35 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m26 |[0m    [33mdef[0m [36mshuffle[0m: [35mdeckState[0m[[35mUnit[0m] = State.modify { [36mstate[0m =>[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                   ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                   Not found: State[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\src\main\scala\Lynx\org\lynxcats\Poker\PokerDeck.scala:30:16 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m30 |[0m    [33mdef[0m [36mreveal[0m: [35mdeckState[0m[[35mCard[0m] = State { [36mstate[0m =>[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                Not found: type deckState[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\src\main\scala\Lynx\org\lynxcats\Poker\PokerDeck.scala:30:26 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m30 |[0m    [33mdef[0m [36mreveal[0m: [35mdeckState[0m[[35mCard[0m] = State { [36mstate[0m =>[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                          ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                          Not found: type Card[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\src\main\scala\Lynx\org\lynxcats\Poker\PokerDeck.scala:30:34 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m30 |[0m    [33mdef[0m [36mreveal[0m: [35mdeckState[0m[[35mCard[0m] = State { [36mstate[0m =>[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                  ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                  Not found: State[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\src\main\scala\Lynx\org\lynxcats\Poker\PokerDeck.scala:38:32 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m38 |[0m    [33mdef[0m [36mdeal[0m: [35mdeckState[0m[[35mUnit[0m] = State { [36mstate[0m =>[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                Not found: State[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\src\main\scala\Lynx\org\lynxcats\Poker\PokerDeck.scala:48:48 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m48 |[0m    [33mdef[0m [36mdealTo[0m([36muser[0m: [35mUser[0m): [35mdeckState[0m[[35mPlayer[0m] = State { [36mstate[0m =>[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                                Not found: State[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m19 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 2 s, completed 25 Nov 2023, 16:18:20[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__postWatch console0, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__waitWatch console0, None, None)[0m
