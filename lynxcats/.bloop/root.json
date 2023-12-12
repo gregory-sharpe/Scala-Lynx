@@ -20,6 +20,9 @@
             "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\http4s\\http4s-circe_3\\0.23.23\\http4s-circe_3-0.23.23.jar",
             "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\http4s\\http4s-dsl_3\\0.23.23\\http4s-dsl_3-0.23.23.jar",
             "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\qos\\logback\\logback-classic\\1.4.11\\logback-classic-1.4.11.jar",
+            "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\circe\\circe-core_3\\0.14.5\\circe-core_3-0.14.5.jar",
+            "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\circe\\circe-parser_3\\0.14.3\\circe-parser_3-0.14.3.jar",
+            "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\circe\\circe-generic_3\\0.14.3\\circe-generic_3-0.14.3.jar",
             "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.10\\scala-library-2.13.10.jar",
             "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\http4s\\http4s-ember-core_3\\0.23.23\\http4s-ember-core_3-0.23.23.jar",
             "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\http4s\\http4s-server_3\\0.23.23\\http4s-server_3-0.23.23.jar",
@@ -28,14 +31,14 @@
             "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\keypool_3\\0.4.8\\keypool_3-0.4.8.jar",
             "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\http4s\\http4s-core_3\\0.23.23\\http4s-core_3-0.23.23.jar",
             "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\http4s\\http4s-jawn_3\\0.23.23\\http4s-jawn_3-0.23.23.jar",
-            "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\circe\\circe-core_3\\0.14.5\\circe-core_3-0.14.5.jar",
             "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\circe\\circe-jawn_3\\0.14.5\\circe-jawn_3-0.14.5.jar",
             "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\qos\\logback\\logback-core\\1.4.11\\logback-core-1.4.11.jar",
             "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-api\\2.0.7\\slf4j-api-2.0.7.jar",
+            "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\circe\\circe-numbers_3\\0.14.5\\circe-numbers_3-0.14.5.jar",
+            "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-core_3\\2.9.0\\cats-core_3-2.9.0.jar",
             "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\log4cats-core_3\\2.6.0\\log4cats-core_3-2.6.0.jar",
             "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\twitter\\hpack\\1.0.2\\hpack-1.0.2.jar",
             "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-effect_3\\3.5.0\\cats-effect_3-3.5.0.jar",
-            "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-core_3\\2.9.0\\cats-core_3-2.9.0.jar",
             "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-effect-std_3\\3.5.1\\cats-effect-std_3-3.5.1.jar",
             "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\case-insensitive_3\\1.4.0\\case-insensitive_3-1.4.0.jar",
             "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-parse_3\\0.3.10\\cats-parse_3-0.3.10.jar",
@@ -49,9 +52,8 @@
             "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\log4s\\log4s_3\\1.10.0\\log4s_3-1.10.0.jar",
             "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\jawn-fs2_3\\2.4.0\\jawn-fs2_3-2.4.0.jar",
             "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\jawn-parser_3\\1.5.1\\jawn-parser_3-1.5.1.jar",
-            "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\circe\\circe-numbers_3\\0.14.5\\circe-numbers_3-0.14.5.jar",
-            "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-effect-kernel_3\\3.5.1\\cats-effect-kernel_3-3.5.1.jar",
-            "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_3\\2.9.0\\cats-kernel_3-2.9.0.jar"
+            "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_3\\2.9.0\\cats-kernel_3-2.9.0.jar",
+            "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-effect-kernel_3\\3.5.1\\cats-effect-kernel_3-3.5.1.jar"
         ],
         "out": "C:\\Users\\grego\\OneDrive\\Scala-Lynx\\lynxcats\\.bloop\\root",
         "classesDir": "C:\\Users\\grego\\OneDrive\\Scala-Lynx\\lynxcats\\.bloop\\root\\scala-3\\classes",
@@ -301,6 +303,57 @@
                     ]
                 },
                 {
+                    "organization": "io.circe",
+                    "name": "circe-core_3",
+                    "version": "0.14.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "circe-core_3",
+                            "path": "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\circe\\circe-core_3\\0.14.5\\circe-core_3-0.14.5.jar"
+                        },
+                        {
+                            "name": "circe-core_3",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\circe\\circe-core_3\\0.14.5\\circe-core_3-0.14.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.circe",
+                    "name": "circe-parser_3",
+                    "version": "0.14.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "circe-parser_3",
+                            "path": "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\circe\\circe-parser_3\\0.14.3\\circe-parser_3-0.14.3.jar"
+                        },
+                        {
+                            "name": "circe-parser_3",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\circe\\circe-parser_3\\0.14.3\\circe-parser_3-0.14.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.circe",
+                    "name": "circe-generic_3",
+                    "version": "0.14.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "circe-generic_3",
+                            "path": "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\circe\\circe-generic_3\\0.14.3\\circe-generic_3-0.14.3.jar"
+                        },
+                        {
+                            "name": "circe-generic_3",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\circe\\circe-generic_3\\0.14.3\\circe-generic_3-0.14.3-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "org.scala-lang",
                     "name": "scala-library",
                     "version": "2.13.10",
@@ -438,23 +491,6 @@
                 },
                 {
                     "organization": "io.circe",
-                    "name": "circe-core_3",
-                    "version": "0.14.5",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "circe-core_3",
-                            "path": "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\circe\\circe-core_3\\0.14.5\\circe-core_3-0.14.5.jar"
-                        },
-                        {
-                            "name": "circe-core_3",
-                            "classifier": "sources",
-                            "path": "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\circe\\circe-core_3\\0.14.5\\circe-core_3-0.14.5-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "io.circe",
                     "name": "circe-jawn_3",
                     "version": "0.14.5",
                     "configurations": "default",
@@ -501,6 +537,40 @@
                             "name": "slf4j-api",
                             "classifier": "sources",
                             "path": "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-api\\2.0.7\\slf4j-api-2.0.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.circe",
+                    "name": "circe-numbers_3",
+                    "version": "0.14.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "circe-numbers_3",
+                            "path": "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\circe\\circe-numbers_3\\0.14.5\\circe-numbers_3-0.14.5.jar"
+                        },
+                        {
+                            "name": "circe-numbers_3",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\circe\\circe-numbers_3\\0.14.5\\circe-numbers_3-0.14.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-core_3",
+                    "version": "2.9.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-core_3",
+                            "path": "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-core_3\\2.9.0\\cats-core_3-2.9.0.jar"
+                        },
+                        {
+                            "name": "cats-core_3",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-core_3\\2.9.0\\cats-core_3-2.9.0-sources.jar"
                         }
                     ]
                 },
@@ -552,23 +622,6 @@
                             "name": "cats-effect_3",
                             "classifier": "sources",
                             "path": "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-effect_3\\3.5.0\\cats-effect_3-3.5.0-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.typelevel",
-                    "name": "cats-core_3",
-                    "version": "2.9.0",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "cats-core_3",
-                            "path": "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-core_3\\2.9.0\\cats-core_3-2.9.0.jar"
-                        },
-                        {
-                            "name": "cats-core_3",
-                            "classifier": "sources",
-                            "path": "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-core_3\\2.9.0\\cats-core_3-2.9.0-sources.jar"
                         }
                     ]
                 },
@@ -794,19 +847,19 @@
                     ]
                 },
                 {
-                    "organization": "io.circe",
-                    "name": "circe-numbers_3",
-                    "version": "0.14.5",
+                    "organization": "org.typelevel",
+                    "name": "cats-kernel_3",
+                    "version": "2.9.0",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "circe-numbers_3",
-                            "path": "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\circe\\circe-numbers_3\\0.14.5\\circe-numbers_3-0.14.5.jar"
+                            "name": "cats-kernel_3",
+                            "path": "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_3\\2.9.0\\cats-kernel_3-2.9.0.jar"
                         },
                         {
-                            "name": "circe-numbers_3",
+                            "name": "cats-kernel_3",
                             "classifier": "sources",
-                            "path": "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\circe\\circe-numbers_3\\0.14.5\\circe-numbers_3-0.14.5-sources.jar"
+                            "path": "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_3\\2.9.0\\cats-kernel_3-2.9.0-sources.jar"
                         }
                     ]
                 },
@@ -824,23 +877,6 @@
                             "name": "cats-effect-kernel_3",
                             "classifier": "sources",
                             "path": "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-effect-kernel_3\\3.5.1\\cats-effect-kernel_3-3.5.1-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.typelevel",
-                    "name": "cats-kernel_3",
-                    "version": "2.9.0",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "cats-kernel_3",
-                            "path": "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_3\\2.9.0\\cats-kernel_3-2.9.0.jar"
-                        },
-                        {
-                            "name": "cats-kernel_3",
-                            "classifier": "sources",
-                            "path": "C:\\Users\\grego\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_3\\2.9.0\\cats-kernel_3-2.9.0-sources.jar"
                         }
                     ]
                 }

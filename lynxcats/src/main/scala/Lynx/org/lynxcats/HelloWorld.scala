@@ -11,11 +11,7 @@ trait HelloWorld:
 
 object HelloWorld:
   final case class Name(name: String) extends AnyVal
-  /**
-   * More generally you will want to decouple your edge representations from
-   * your internal data structures, however this shows how you can
-   * create encoders for your data.
-   **/
+    // explain Givens
   final case class Greeting(greeting: String) extends AnyVal
   object Greeting:
     given Encoder[Greeting] = new Encoder[Greeting]:

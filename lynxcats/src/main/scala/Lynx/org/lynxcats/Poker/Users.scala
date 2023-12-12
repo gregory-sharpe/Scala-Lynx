@@ -5,6 +5,7 @@ import cats.data.State
 import PlayerStates.*
 import PokerCards.*
 sealed trait unbettableStates
+
 enum PlayerStates {
     case Undecided
     case Folded extends PlayerStates, unbettableStates

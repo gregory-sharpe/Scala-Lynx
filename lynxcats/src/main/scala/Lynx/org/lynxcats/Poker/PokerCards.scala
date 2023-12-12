@@ -1,7 +1,6 @@
 package lynxcats.Poker
 import scala.util.Random
 import scala.util.Try
-import cats.instances.unit
 import cats.syntax.functor._
 import cats.syntax.traverse._
 import cats.data.IndexedStateT

@@ -8,7 +8,9 @@ import potStates.*
 import cats.data.StateT
 import cats.instances.unit
 import cats.data.IndexedState
-type Players = List[Player]
+
+
+type players = List[Player]
 type potSize = Int; type bet = Int
 // make into a sealed trait instead
 sealed trait bettableStates
@@ -21,15 +23,17 @@ enum potStates{
   case BetInProgress(pot: Pot) extends potStates, bettableStates
 }
 case class Pot(
-    value: potSize,
-    minBet: potSize,
-    smallBlind: potSize = 2
+    value: Int,
+    minBet: Int,
+    smallBlind: Int = 2
 )
 //IDEA https://www.youtube.com/watch?v=_QZan0Yq5Dcs
 
 object Pot {
-  def empty = Pot(0,0,2)
-  def nextPlayer:State[potStates,Player] = ???
+
+  val empty = Pot(0,0,2)
+  val emptySmallBlind = NoSmallBlind(empty)
+  val emptyNoAdditionalBets = NoAdditionalBets(empty)
   def addSmallBlind(
       player: Player
   ): IndexedStateT[Eval, NoSmallBlind, NoBigBlind, Player] = IndexedState{case  NoSmallBlind(pot) =>
@@ -61,7 +65,7 @@ object Pot {
       betAmount: bet
   ): IndexedStateT[Eval,bettableStates, BetInProgress, Player] = IndexedState{state=>
     val updatedPlayer = Player.bet(betAmount).runS(player).value
-    // how can you nicely extract pot without pattern matching on the state 
+    //  can you nicely extract pot without pattern matching on the state 
     val pot = state match
         case NoAdditionalBets(pot) => pot
         case BetInProgress(pot) =>pot 

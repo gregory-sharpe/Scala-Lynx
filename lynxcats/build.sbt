@@ -3,7 +3,7 @@ val CirceVersion = "0.14.6"
 val MunitVersion = "0.7.29"
 val LogbackVersion = "1.4.11"
 val MunitCatsEffectVersion = "1.0.7"
-
+val circeVersion = "0.14.3"
 lazy val root = (project in file("."))
   .settings(
     organization := "Lynx.org",
@@ -18,7 +18,10 @@ lazy val root = (project in file("."))
       "org.scalameta" %% "munit" % MunitVersion % Test,
       "org.typelevel" %% "munit-cats-effect-3" % MunitCatsEffectVersion % Test,
       "ch.qos.logback" % "logback-classic" % LogbackVersion,
-      "org.scalatest" %% "scalatest" % "3.2.15" % "test"
+      "org.scalatest" %% "scalatest" % "3.2.15" % "test",
+      "io.circe" %% "circe-core" % circeVersion,
+      "io.circe" %% "circe-parser" % circeVersion,
+      "io.circe" %% "circe-generic" % circeVersion
     ),
     assembly / assemblyMergeStrategy := {
       case "module-info.class" => MergeStrategy.discard

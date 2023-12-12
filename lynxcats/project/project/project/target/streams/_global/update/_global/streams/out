@@ -1,3 +1,3 @@
-[debug] not up to date. inChanged = true, force = false
+[debug] not up to date. inChanged = false, force = false
 [debug] Updating ProjectRef(uri("file:/C:/Users/grego/OneDrive/Scala-Lynx/lynxcats/project/project/project/"), "lynxcats-build-build-build")...
 [debug] Done updating ProjectRef(uri("file:/C:/Users/grego/OneDrive/Scala-Lynx/lynxcats/project/project/project/"), "lynxcats-build-build-build")

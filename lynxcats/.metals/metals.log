@@ -9096,3 +9096,599 @@ WARNING: Unmatched cancel notification for request id 17330
 2023.12.04 01:27:00 INFO  compiling root (11 scala sources)
 2023.12.04 01:27:00 WARN  Using indexes to guess the definition of state
 2023.12.04 01:27:00 INFO  time: compiled root in 0.88s
+2023.12.04 01:29:24 INFO  compiling root (11 scala sources)
+2023.12.04 01:29:25 INFO  time: compiled root in 1.5s
+2023.12.04 01:29:52 INFO  compiling root (11 scala sources)
+2023.12.04 01:29:54 INFO  time: compiled root in 1.58s
+2023.12.04 01:30:07 INFO  compiling root (11 scala sources)
+2023.12.04 01:30:09 INFO  time: compiled root in 1.75s
+2023.12.04 01:30:50 INFO  compiling root (11 scala sources)
+2023.12.04 01:30:51 INFO  time: compiled root in 1.6s
+2023.12.04 01:31:12 INFO  compiling root (11 scala sources)
+2023.12.04 01:31:13 INFO  time: compiled root in 1.47s
+Dec 04, 2023 1:31:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17670
+2023.12.04 01:32:00 INFO  compiling root (11 scala sources)
+2023.12.04 01:32:02 INFO  time: compiled root in 1.78s
+2023.12.04 01:34:01 INFO  compiling root (11 scala sources)
+2023.12.04 01:34:03 INFO  time: compiled root in 2.11s
+2023.12.04 01:38:59 INFO  compiling root (11 scala sources)
+2023.12.04 01:39:01 INFO  time: compiled root in 2.1s
+2023.12.04 01:39:06 INFO  compiling root (11 scala sources)
+2023.12.04 01:39:08 INFO  time: compiled root in 1.67s
+2023.12.04 01:39:08 INFO  compiling root (11 scala sources)
+2023.12.04 01:39:12 INFO  time: compiled root in 2.57s
+2023.12.04 01:39:37 INFO  compiling root (11 scala sources)
+2023.12.04 01:39:39 INFO  time: compiled root in 1.78s
+2023.12.04 01:39:47 INFO  compiling root (11 scala sources)
+2023.12.04 01:39:48 INFO  time: compiled root in 1.54s
+2023.12.04 01:39:54 INFO  compiling root (11 scala sources)
+Dec 04, 2023 1:39:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18164
+2023.12.04 01:39:56 INFO  time: compiled root in 1.65s
+2023.12.04 01:40:07 INFO  compiling root (11 scala sources)
+2023.12.04 01:40:09 INFO  time: compiled root in 2.4s
+2023.12.04 01:41:29 INFO  compiling root (11 scala sources)
+2023.12.04 01:41:31 INFO  time: compiled root in 1.64s
+2023.12.04 01:41:47 INFO  compiling root (11 scala sources)
+2023.12.04 01:41:49 INFO  time: compiled root in 1.58s
+Dec 04, 2023 1:42:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18325
+2023.12.04 01:42:37 INFO  compiling root (11 scala sources)
+2023.12.04 01:42:39 INFO  time: compiled root in 1.89s
+2023.12.04 01:45:11 INFO  compiling root (11 scala sources)
+2023.12.04 01:45:12 INFO  time: compiled root in 1.43s
+2023.12.04 01:45:33 INFO  compiling root (11 scala sources)
+2023.12.04 01:45:34 INFO  time: compiled root in 1.57s
+2023.12.04 01:45:36 INFO  compiling root (11 scala sources)
+2023.12.04 01:45:38 INFO  time: compiled root in 1.5s
+2023.12.04 01:47:29 INFO  compiling root (11 scala sources)
+2023.12.04 01:47:31 INFO  time: compiled root in 1.4s
+Dec 04, 2023 1:48:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18837
+2023.12.04 01:48:24 INFO  compiling root (11 scala sources)
+2023.12.04 01:48:26 INFO  time: compiled root in 1.86s
+2023.12.04 01:48:39 INFO  compiling root (11 scala sources)
+2023.12.04 01:48:40 INFO  time: compiled root in 1.52s
+Dec 04, 2023 1:48:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19008
+2023.12.04 01:48:55 INFO  compiling root (11 scala sources)
+2023.12.04 01:48:56 INFO  time: compiled root in 1.58s
+2023.12.04 01:49:03 INFO  compiling root (11 scala sources)
+2023.12.04 01:49:04 INFO  time: compiled root in 1.51s
+2023.12.04 01:49:57 INFO  compiling root (11 scala sources)
+2023.12.04 01:49:58 INFO  time: compiled root in 1.66s
+2023.12.04 01:50:11 INFO  compiling root (11 scala sources)
+2023.12.04 01:50:13 INFO  time: compiled root in 1.58s
+2023.12.04 01:50:19 INFO  compiling root (11 scala sources)
+2023.12.04 01:50:21 INFO  time: compiled root in 1.39s
+2023.12.04 01:50:27 INFO  compiling root (11 scala sources)
+2023.12.04 01:50:29 INFO  time: compiled root in 1.77s
+2023.12.04 01:51:09 INFO  compiling root (11 scala sources)
+2023.12.04 01:51:10 INFO  time: compiled root in 1.44s
+2023.12.04 01:51:36 WARN  Using indexes to guess the definition of Player
+2023.12.04 01:51:42 INFO  compiling root (11 scala sources)
+2023.12.04 01:51:43 INFO  time: compiled root in 1.59s
+2023.12.04 01:52:19 INFO  compiling root (11 scala sources)
+2023.12.04 01:52:19 INFO  time: compiled root in 0.86s
+2023.12.04 01:52:30 INFO  compiling root (11 scala sources)
+2023.12.04 01:52:30 INFO  time: compiled root in 0.83s
+2023.12.04 01:53:00 INFO  compiling root (11 scala sources)
+2023.12.04 01:53:01 INFO  time: compiled root in 1.06s
+2023.12.04 01:53:03 INFO  compiling root (11 scala sources)
+2023.12.04 01:53:05 INFO  time: compiled root in 2.13s
+2023.12.04 01:53:13 INFO  compiling root (11 scala sources)
+2023.12.04 01:53:13 WARN  Using indexes to guess the definition of User
+2023.12.04 01:53:15 INFO  time: compiled root in 1.68s
+2023.12.04 01:53:15 INFO  compiling root (11 scala sources)
+2023.12.04 01:53:32 WARN  there were 2 deprecation warnings; re-run with -deprecation for details
+2023.12.04 01:53:32 INFO  time: compiled root in 17s
+Dec 04, 2023 1:55:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19918
+2023.12.04 01:55:42 INFO  compiling root (1 scala source)
+2023.12.04 01:55:44 INFO  time: compiled root in 1.29s
+2023.12.04 01:55:50 INFO  compiling root (1 scala source)
+2023.12.04 01:55:51 INFO  time: compiled root in 1.36s
+2023.12.04 01:55:55 INFO  compiling root (1 scala source)
+2023.12.04 01:55:55 INFO  time: compiled root in 0.65s
+2023.12.04 01:56:08 INFO  compiling root (1 scala source)
+2023.12.04 01:56:08 INFO  time: compiled root in 0.21s
+Dec 04, 2023 1:57:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20202
+2023.12.04 01:57:38 INFO  compiling root (1 scala source)
+2023.12.04 01:57:40 INFO  time: compiled root in 1.85s
+2023.12.04 01:58:37 INFO  compiling root (1 scala source)
+2023.12.04 01:58:38 INFO  time: compiled root in 1.35s
+2023.12.04 01:58:49 INFO  compiling root (1 scala source)
+2023.12.04 01:58:49 INFO  time: compiled root in 0.96s
+2023.12.04 02:01:07 INFO  compiling root (1 scala source)
+2023.12.04 02:01:07 INFO  time: compiled root in 0.52s
+2023.12.04 02:01:25 INFO  compiling root (1 scala source)
+2023.12.04 02:01:25 INFO  time: compiled root in 0.57s
+Dec 04, 2023 2:11:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20555
+Dec 04, 2023 2:11:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20605
+2023.12.04 02:11:49 INFO  compiling root (1 scala source)
+2023.12.04 02:11:51 INFO  time: compiled root in 1.86s
+2023.12.04 02:11:56 INFO  compiling root (1 scala source)
+2023.12.04 02:11:59 INFO  time: compiled root in 3.38s
+Dec 04, 2023 2:17:59 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.12.04 02:42:32 INFO  Bloop uses C:\Program Files\Eclipse Adoptium\jdk-17.0.1.12-hotspot defined at C:\Users\grego\.bloop\bloop.json
+2023.12.04 02:42:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\.metals\bsp.trace.json or C:\Users\grego\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.04 02:42:33 INFO  Connected to Build server: Bloop v1.5.11
+2023.12.04 02:42:33 INFO  Bloop uses C:\Program Files\Eclipse Adoptium\jdk-17.0.1.12-hotspot defined at C:\Users\grego\.bloop\bloop.json
+2023.12.04 02:42:33 INFO  Bloop uses C:\Program Files\Eclipse Adoptium\jdk-17.0.1.12-hotspot defined at C:\Users\grego\.bloop\bloop.json
+2023.12.04 02:42:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\project\.metals\bsp.trace.json or C:\Users\grego\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.04 02:42:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\project\project\.metals\bsp.trace.json or C:\Users\grego\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.04 03:02:19 INFO  compiling root (1 scala source)
+2023.12.04 03:02:23 INFO  time: compiled root in 3.43s
+2023.12.04 03:02:31 INFO  compiling root (1 scala source)
+2023.12.04 03:02:31 INFO  time: compiled root in 0.8s
+Dec 04, 2023 12:40:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21013
+2023.12.04 12:41:32 INFO  Bloop uses C:\Program Files\Eclipse Adoptium\jdk-17.0.1.12-hotspot defined at C:\Users\grego\.bloop\bloop.json
+2023.12.04 12:41:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\.metals\bsp.trace.json or C:\Users\grego\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.04 12:41:32 INFO  Connected to Build server: Bloop v1.5.11
+2023.12.04 12:41:32 INFO  Bloop uses C:\Program Files\Eclipse Adoptium\jdk-17.0.1.12-hotspot defined at C:\Users\grego\.bloop\bloop.json
+2023.12.04 12:41:32 INFO  Bloop uses C:\Program Files\Eclipse Adoptium\jdk-17.0.1.12-hotspot defined at C:\Users\grego\.bloop\bloop.json
+2023.12.04 12:41:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\project\project\.metals\bsp.trace.json or C:\Users\grego\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.04 12:41:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\project\.metals\bsp.trace.json or C:\Users\grego\AppData\Local\scalameta\metals\cache\bsp.trace.json
+Dec 04, 2023 12:43:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21364
+2023.12.04 12:57:04 INFO  compiling root (1 scala source)
+2023.12.04 12:57:06 INFO  time: compiled root in 1.99s
+2023.12.04 12:57:24 INFO  compiling root-test (2 scala sources)
+2023.12.04 12:57:27 INFO  time: compiled root-test in 3.16s
+2023.12.06 17:52:13 INFO  Shutting down server
+2023.12.06 17:52:13 INFO  shutting down Metals
+Dec 06, 2023 5:52:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1(BspSession.scala:34)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1$adapted(BspSession.scala:34)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.bsp.BspSession.cancel(BspSession.scala:34)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.cancel(MetalsLspService.scala:157)
+	at scala.meta.internal.metals.MetalsLspService.onShutdown(MetalsLspService.scala:927)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$shutdown$2(WorkspaceLspService.scala:1170)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$shutdown$2$adapted(WorkspaceLspService.scala:1170)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.WorkspaceLspService.shutdown(WorkspaceLspService.scala:1170)
+	at scala.meta.metals.MetalsLanguageServer.shutdown(MetalsLanguageServer.scala:260)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpenAndConnected(SocketChannelImpl.java:215)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:527)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:123)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 45 more
+
+Dec 06, 2023 5:52:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1(BspSession.scala:34)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1$adapted(BspSession.scala:34)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.bsp.BspSession.cancel(BspSession.scala:34)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.cancel(MetalsLspService.scala:157)
+	at scala.meta.internal.metals.MetalsLspService.onShutdown(MetalsLspService.scala:927)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$shutdown$2(WorkspaceLspService.scala:1170)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$shutdown$2$adapted(WorkspaceLspService.scala:1170)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.WorkspaceLspService.shutdown(WorkspaceLspService.scala:1170)
+	at scala.meta.metals.MetalsLanguageServer.shutdown(MetalsLanguageServer.scala:260)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpenAndConnected(SocketChannelImpl.java:215)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:527)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:123)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 45 more
+
+2023.12.06 17:52:14 INFO  Cancelling compilation on Bloop server
+2023.12.06 17:52:14 INFO  Cancelling compilation on Bloop server
+Dec 06, 2023 5:52:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1(BspSession.scala:34)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1$adapted(BspSession.scala:34)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.bsp.BspSession.cancel(BspSession.scala:34)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.cancel(MetalsLspService.scala:157)
+	at scala.meta.internal.metals.MetalsLspService.onShutdown(MetalsLspService.scala:927)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$shutdown$2(WorkspaceLspService.scala:1170)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$shutdown$2$adapted(WorkspaceLspService.scala:1170)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.WorkspaceLspService.shutdown(WorkspaceLspService.scala:1170)
+	at scala.meta.metals.MetalsLanguageServer.shutdown(MetalsLanguageServer.scala:260)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpenAndConnected(SocketChannelImpl.java:215)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:527)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:123)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 44 more
+
+2023.12.06 17:52:14 INFO  Failed to run request with params WorkspaceBuildTargetsResult
+Dec 06, 2023 5:52:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1(BspSession.scala:34)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1$adapted(BspSession.scala:34)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.bsp.BspSession.cancel(BspSession.scala:34)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.cancel(MetalsLspService.scala:157)
+	at scala.meta.internal.metals.MetalsLspService.onShutdown(MetalsLspService.scala:927)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$shutdown$2(WorkspaceLspService.scala:1170)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$shutdown$2$adapted(WorkspaceLspService.scala:1170)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.WorkspaceLspService.shutdown(WorkspaceLspService.scala:1170)
+	at scala.meta.metals.MetalsLanguageServer.shutdown(MetalsLanguageServer.scala:260)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpenAndConnected(SocketChannelImpl.java:215)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:527)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:123)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 44 more
+
+2023.12.06 17:52:14 INFO  Failed to run request with params WorkspaceBuildTargetsResult
+Dec 06, 2023 5:52:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1(BspSession.scala:34)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1$adapted(BspSession.scala:34)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.bsp.BspSession.cancel(BspSession.scala:34)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.cancel(MetalsLspService.scala:157)
+	at scala.meta.internal.metals.MetalsLspService.onShutdown(MetalsLspService.scala:927)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$shutdown$2(WorkspaceLspService.scala:1170)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$shutdown$2$adapted(WorkspaceLspService.scala:1170)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.WorkspaceLspService.shutdown(WorkspaceLspService.scala:1170)
+	at scala.meta.metals.MetalsLanguageServer.shutdown(MetalsLanguageServer.scala:260)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpenAndConnected(SocketChannelImpl.java:215)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:527)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:123)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 44 more
+
+2023.12.06 17:52:14 INFO  Failed to run request with params WorkspaceBuildTargetsResult
+Dec 06, 2023 5:52:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1(BspSession.scala:34)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1$adapted(BspSession.scala:34)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.bsp.BspSession.cancel(BspSession.scala:34)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.cancel(MetalsLspService.scala:157)
+	at scala.meta.internal.metals.MetalsLspService.onShutdown(MetalsLspService.scala:927)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$shutdown$2(WorkspaceLspService.scala:1170)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$shutdown$2$adapted(WorkspaceLspService.scala:1170)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.WorkspaceLspService.shutdown(WorkspaceLspService.scala:1170)
+	at scala.meta.metals.MetalsLanguageServer.shutdown(MetalsLanguageServer.scala:260)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpenAndConnected(SocketChannelImpl.java:215)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:527)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:123)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 44 more
+
+2023.12.06 17:52:14 INFO  Failed to run request with params WorkspaceBuildTargetsResult
+2023.12.06 17:52:14 INFO  Exiting server
+2023.12.07 23:22:55 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\grego\OneDrive\Scala-Lynx\lynxcats' for client Visual Studio Code 1.84.2.
+2023.12.07 23:22:56 INFO  Attempting to connect to the build server...
+2023.12.07 23:22:56 INFO  skipping build import with status 'Installed'
+2023.12.07 23:22:56 INFO  Bloop uses C:\Program Files\Eclipse Adoptium\jdk-17.0.1.12-hotspot defined at C:\Users\grego\.bloop\bloop.json
+2023.12.07 23:22:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\.metals\bsp.trace.json or C:\Users\grego\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.07 23:22:57 INFO  Attempting to connect to the build server...
+2023.12.07 23:22:57 INFO  Bloop uses C:\Program Files\Eclipse Adoptium\jdk-17.0.1.12-hotspot defined at C:\Users\grego\.bloop\bloop.json
+2023.12.07 23:22:57 INFO  Attempting to connect to the build server...
+2023.12.07 23:22:57 INFO  Bloop uses C:\Program Files\Eclipse Adoptium\jdk-17.0.1.12-hotspot defined at C:\Users\grego\.bloop\bloop.json
+2023.12.07 23:22:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\project\project\.metals\bsp.trace.json or C:\Users\grego\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.07 23:22:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\project\.metals\bsp.trace.json or C:\Users\grego\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.07 23:22:57 INFO  time: Connected to build server in 1.31s
+2023.12.07 23:22:57 INFO  Connected to Build server: Bloop v1.5.11
+2023.12.07 23:23:02 INFO  no build target found for C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\src\main\scala\Lynx\org\lynxcats\Poker\Pot.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.07 23:23:02 INFO  time: Imported build in 0.21s
+2023.12.07 23:23:07 INFO  time: indexed workspace in 4.78s
+2023.12.07 23:23:48 INFO  Shutting down server
+2023.12.07 23:23:48 INFO  shutting down Metals
+2023.12.07 23:23:48 INFO  Shut down connection with build server.
+2023.12.07 23:23:48 INFO  Shut down connection with build server.
+2023.12.07 23:23:48 INFO  Shut down connection with build server.
+Dec 07, 2023 11:23:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:139)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpenAndConnected(SocketChannelImpl.java:215)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:527)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:123)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2023.12.07 23:23:48 INFO  Cancelling compilation on Bloop server
+2023.12.07 23:23:48 INFO  Exiting server

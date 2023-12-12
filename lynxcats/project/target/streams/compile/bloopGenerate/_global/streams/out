@@ -1,4 +1,4 @@
-[0m[[0m[0mdebug[0m] [0m[0m[lynxcats-build] Classpath dependencies List()[0m
-[0m[[0m[0mdebug[0m] [0m[0m[lynxcats-build] Dependencies from configurations List()[0m
-[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'lynxcats-build' to 'C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\project\.bloop\lynxcats-build.json'[0m
-[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop\lynxcats-build.json[0m
+[debug] [lynxcats-build] Classpath dependencies List()
+[debug] [lynxcats-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'lynxcats-build' to 'C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\project\.bloop\lynxcats-build.json'
+[success] Generated .bloop\lynxcats-build.json

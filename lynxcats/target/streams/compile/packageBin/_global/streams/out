@@ -264,6 +264,12 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\target\scala-3.3.0\classes\lynxcats\Poker\pokerMain.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	lynxcats\Poker\pokerMain.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\target\scala-3.3.0\classes\lynxcats\Poker\pokerMain.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	lynxcats\Poker\PokerToyRoutes$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\target\scala-3.3.0\classes\lynxcats\Poker\PokerToyRoutes$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	lynxcats\Poker\PokerToyRoutes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\target\scala-3.3.0\classes\lynxcats\Poker\PokerToyRoutes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	lynxcats\Poker\PokerToyRoutes.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\target\scala-3.3.0\classes\lynxcats\Poker\PokerToyRoutes.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	lynxcats\Poker\Pot$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\target\scala-3.3.0\classes\lynxcats\Poker\Pot$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	lynxcats\Poker\Pot$package$.class[0m
@@ -314,3 +320,10 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\target\scala-3.3.0\classes\lynxcats\Poker\User.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	lynxcats\Poker\User.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\target\scala-3.3.0\classes\lynxcats\Poker\User.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PokerGame$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\target\scala-3.3.0\classes\PokerGame$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PokerGame.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\target\scala-3.3.0\classes\PokerGame.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PokerGame.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\grego\OneDrive\Scala-Lynx\lynxcats\target\scala-3.3.0\classes\PokerGame.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
