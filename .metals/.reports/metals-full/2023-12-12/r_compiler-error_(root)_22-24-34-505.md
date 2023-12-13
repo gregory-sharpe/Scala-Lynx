@@ -1,3 +1,13 @@
+file:///C:/Users/grego/OneDrive/Scala-Lynx/lynxcats/src/main/scala/Lynx/org/lynxcats/Poker/PokerToyRoutes.scala
+### java.nio.file.InvalidPathException: Illegal char <:> at index 3: jar:file:///C:/Users/grego/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10-sources.jar!/scala/Option.scala
+
+occurred in the presentation compiler.
+
+action parameters:
+offset: 3558
+uri: file:///C:/Users/grego/OneDrive/Scala-Lynx/lynxcats/src/main/scala/Lynx/org/lynxcats/Poker/PokerToyRoutes.scala
+text:
+```scala
 package lynxcats.Poker
 // will use a peer to peer structure so will not be similar to this.
 import cats.effect.IO
@@ -50,35 +60,22 @@ object PokerToyRoutes {
     What is wrong with using Regular Expressions directly for URLs? is it against convention to do it in this style?
     difference between (+&) , (/) and (:?)
     is the cardValueregex easily readable for other people?Is it best to break it down for readabillity
-    does the Request type (GET/PUT/etc) have any effect on code or is just a label for readabillity
-    JSon
-    maybe inline
-    if you have 
-        root/gamestate/OptionalStringPattern1(String)=> OK("First pattern")
-        root/gameState/OptionalStringPattern2(String)=> OK("Second Pattern")
-        it the first pattern doesnt correctly parse the string will the object be a None and stop there 
-        will it try match with pattern2.How can you fail the implicit conversion so the pattern matching fails on the first pattern
-        without consuming the string and then attempts to match on the second pattern? are you forced to pattern match on the url structure
-        and then pattern match on the string 
-    can I import a library once and have it accessible from other files without explicitly importing it. for example 
-    import cats.data.State once.
    */
   val Diamonds = """Diamonds""".r
   val Clubs = """Clubs""".r
   val Spades = """Spades""".r
   val Hearts = """Hearts""".r
-  val cardValueRegex = CardValue.values.toList.map(_.toString().r).reduceLeft {
+  val cardValueRegex = CardValue.values.toList.map(_.toString().r).reduceLeft{
     (acc, cardvalue) => s"$acc|$cardvalue".r
-  }
+  } 
   val suits =
     s"$Diamonds|$Clubs|$Spades|$Hearts" // are there methods for combining Regular expressions directly eg. Diamonds|Clubs etc
 // or a library for regular expression methods Diamonds.? => (Diamonds)?
-
-  implicit val PokerCardQueryParamDecoder
-      : QueryParamDecoder[Card] = // implicits use QueryParamDecoder
-    QueryParamDecoder[String].map(_ => // pattern match on the string to return the card.
+  implicit val PokerCardQueryParamDecoder: QueryParamDecoder[Card] = // implicits use QueryParamDecoder
+    QueryParamDecoder[String].map(_ =>
       (CardValue.Ace of PokerCards.Suit.Diamonds)
     )
+
     object PokerCardQueryParamMatcher // the pattern uses QueryParamDecoderMATCHER
         extends QueryParamDecoderMatcher[Card]("Poker Card")
 
@@ -100,21 +97,18 @@ object PokerToyRoutes {
 
       }
     }
+
     def actionRoutes[F[_]: Monad]: HttpRoutes[F] = {
       val dsl = Http4sDsl[F]
       import dsl._
       HttpRoutes.of[F] {
-        case PUT -> Root / "GameState" / "Action" / "FOLD"  => Ok("You Folded")
-        case PUT -> Root / "GameState" / "Action" / "CHECK" => Ok("You Checked")
-        case PUT -> Root / "GameState" / "Action" / "BET" +& betQueryParamMatcher(
+        case PUT -> Root / "GameState" / "Action" / "FOLD"  => Ok("Folded")
+        case PUT -> Root / "GameState" / "Action" / "CHECK" => Ok("Checked")
+        case PUT -> Root / "GameState" / "Action"/ "BET" +& betQueryParamMatcher(
               betAmount
-            ) =>
-          betAmount match {
-            case Some(value) => Ok(s"You have betted $value")
-            case None        => Ok(s"You have betted the mininum Amount")
-          }
-
-        case PUT -> Root / "GameState" / "Action" / "AllIn" => Ok("")
+            ) => betAmount m@@
+           
+        case PUT -> Root / "GameState" / "Action" / "AllIn" => ???
         case PUT -> Root / "GameState" / "Action" / "Reveal" +& PokerCardQueryParamMatcher(
               card
             ) =>
@@ -145,3 +139,32 @@ object PokerToyRoutes {
     }
 
 }
+
+```
+
+
+
+#### Error stacktrace:
+
+```
+java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	java.base/java.nio.file.Path.of(Path.java:147)
+	java.base/java.nio.file.Paths.get(Paths.java:69)
+	scala.meta.io.AbsolutePath$.apply(AbsolutePath.scala:60)
+	scala.meta.internal.metals.MetalsSymbolSearch.$anonfun$definitionSourceToplevels$2(MetalsSymbolSearch.scala:62)
+	scala.Option.map(Option.scala:242)
+	scala.meta.internal.metals.MetalsSymbolSearch.definitionSourceToplevels(MetalsSymbolSearch.scala:61)
+	scala.meta.internal.pc.completions.CaseKeywordCompletion$.sortSubclasses(MatchCaseCompletions.scala:308)
+	scala.meta.internal.pc.completions.CaseKeywordCompletion$.matchContribute(MatchCaseCompletions.scala:256)
+	scala.meta.internal.pc.completions.Completions.advancedCompletions(Completions.scala:384)
+	scala.meta.internal.pc.completions.Completions.completions(Completions.scala:183)
+	scala.meta.internal.pc.completions.CompletionProvider.completions(CompletionProvider.scala:86)
+	scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:136)
+```
+#### Short summary: 
+
+java.nio.file.InvalidPathException: Illegal char <:> at index 3: jar:file:///C:/Users/grego/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10-sources.jar!/scala/Option.scala

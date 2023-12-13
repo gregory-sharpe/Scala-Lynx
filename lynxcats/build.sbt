@@ -21,7 +21,8 @@ lazy val root = (project in file("."))
       "org.scalatest" %% "scalatest" % "3.2.15" % "test",
       "io.circe" %% "circe-core" % circeVersion,
       "io.circe" %% "circe-parser" % circeVersion,
-      "io.circe" %% "circe-generic" % circeVersion
+      "io.circe" %% "circe-generic" % circeVersion,
+      "xyz.wiedenhoeft" %% "scalacrypt" % "0.4.0"
     ),
     assembly / assemblyMergeStrategy := {
       case "module-info.class" => MergeStrategy.discard

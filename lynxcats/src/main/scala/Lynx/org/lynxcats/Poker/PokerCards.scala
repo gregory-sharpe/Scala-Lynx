@@ -9,7 +9,7 @@ import cats.data.State
 
 object PokerCards {
   import CardValue.*
-  import Suit.* // tr
+  import Suit.* 
   import HandRankings.*
   type cards = List[Card]
   type players = List[Player]
@@ -83,5 +83,6 @@ object PokerCards {
 
     val w = users.traverse(Deck.dealTo).runA(deckdealt).value
     println(w)
+    
   }
 }
